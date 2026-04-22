@@ -20,7 +20,7 @@ export default function Hero() {
         {/* Sanskrit Text at top of box */}
         <div className="absolute inset-x-0 top-6 flex items-center justify-center gap-8 font-serif text-[9px] text-gold md:text-[11px]">
           <span>॥ श्री गणेशाय नमः ॥</span>
-          <span>॥ श्री गणेशाय नमः ॥</span>
+          
         </div>
 
         <div className="mt-4">

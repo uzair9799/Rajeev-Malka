@@ -3,28 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>25th Wedding Anniversary Of MR. RAJEEV & MRS. MALKA</title>
-    <meta name="description" content="You are cordially invited to the 25th wedding anniversary celebration of Mr. Rajeev & Mrs. Malka." />
+    <title>25th Wedding Anniversary of Rajeev & Malka</title>
+    <meta name="description" content="You are cordially invited to the 25th wedding anniversary celebration of Rajeev & Malka." />
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="25th Wedding Anniversary Of MR. RAJEEV & MRS. MALKA" />
-    <meta property="og:description" content="Join us in celebrating our special day. Click to view the invitation." />
-    <meta property="og:image" content="https://raw.githubusercontent.com/uzair9799/rajeev-malka/main/src/lib/25.webp" />
+    <meta property="og:title" content="25th Wedding Anniversary of Rajeev & Malka" />
+    <meta property="og:description" content="Join us in celebrating this milestone of 25 wonderful years. Click to view the invitation." />
+    <meta property="og:image" content="https://raw.githubusercontent.com/uzair9799/Rajeev-Malka/main/src/lib/img25.webp" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="25th Wedding Anniversary Of MR. RAJEEV & MRS. MALKA" />
-    <meta name="twitter:description" content="Join us in celebrating our special day. Click to view the invitation." />
-    <meta name="twitter:image" content="https://raw.githubusercontent.com/uzair9799/rajeev-malka/main/src/lib/25.webp" />
+    <meta name="twitter:title" content="25th Wedding Anniversary of Rajeev & Malka" />
+    <meta name="twitter:description" content="Join us in celebrating this milestone of 25 wonderful years. Click to view the invitation." />
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/uzair9799/Rajeev-Malka/main/src/lib/25.webp" />
 
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=%VITE_GA_ID%"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', '%VITE_GA_ID%');
+      const gaId = "%VITE_GA_ID%";
+      if (gaId && gaId !== "%" + "VITE_GA_ID" + "%") {
+        const script = document.createElement('script');
+        script.async = true;
+        script.src = `https://www.googletagmanager.com/gtag/js?id=${gaId}`;
+        document.head.appendChild(script);
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', gaId);
+      }
     </script>
   </head>
   <body>

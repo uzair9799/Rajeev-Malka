@@ -18,10 +18,10 @@ export default function Hero() {
         className="relative z-10 w-full max-w-2xl rounded-sm border border-gold bg-white/5 p-8 shadow-2xl backdrop-blur-md md:p-16"
       >
         {/* Sanskrit Text at top of box */}
-        <!-- <div className="absolute inset-x-0 top-6 flex items-center justify-center gap-8 font-serif text-[9px] text-gold md:text-[11px]">
+        <div className="absolute inset-x-0 top-6 flex items-center justify-center gap-8 font-serif text-[9px] text-gold md:text-[11px]">
           <span>॥ श्री गणेशाय नमः ॥</span>
           <span>॥ श्री गणेशाय नमः ॥</span>
-        </div>-->
+        </div>
 
         <div className="mt-4">
           <motion.p

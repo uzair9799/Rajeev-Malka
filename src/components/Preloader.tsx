@@ -99,7 +99,7 @@ export default function Preloader({ onComplete }: PreloaderProps) {
             className="relative z-10 text-center"
           >
             <h2 className="mb-4 font-serif text-sm uppercase tracking-[4px] text-gold md:text-base">
-              The Wedding Anniversary
+              The 25th Wedding Anniversary
             </h2>
             <h1 className="mb-8 font-serif text-5xl italic text-cream md:text-8xl">
               Mr Rajeev & Mrs Malka

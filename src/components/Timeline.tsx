@@ -24,7 +24,7 @@ export default function Timeline() {
           className="rounded-xl border-[8px] border-double border-gold bg-cream p-8 shadow-[inset_0_0_40px_rgba(0,0,0,0.1)] md:p-12"
         >
           <div className="mb-12 border-b border-royal/10 pb-8 text-center">
-            <h2 className="font-serif text-3xl uppercase tracking-[2px] text-ink">Wedding Programme</h2>
+            <h2 className="font-serif text-3xl uppercase tracking-[2px] text-ink">Anniversary Programme</h2>
             <p className="mt-2 font-serif text-sm italic text-royal/60">The Sacred Schedule</p>
           </div>
 

@@ -9,7 +9,6 @@ import MusicToggle from './components/MusicToggle';
 import Hero from './components/Hero';
 import ScratchCard from './components/ScratchCard';
 import Countdown from './components/Countdown';
-import Carousel from './components/Carousel';
 import Timeline from './components/Timeline';
 import MapSection from './components/MapSection';
 import Footer from './components/Footer';
@@ -48,7 +47,6 @@ export default function App() {
 
                 {/* Middle Column */}
                 <div className="flex flex-col gap-4">
-                  <Carousel />
                   <Countdown />
                   <Timeline />
                 </div>

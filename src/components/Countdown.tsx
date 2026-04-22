@@ -59,7 +59,7 @@ export default function Countdown() {
           viewport={{ once: true, margin: "-50px" }}
           className="mb-4 text-[10px] uppercase tracking-[2px] text-cream/60"
         >
-          Counting Down To Forever
+          Almost time for our Silver Jubilee!
         </motion.p>
 
         <motion.div 

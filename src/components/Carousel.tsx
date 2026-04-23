@@ -9,17 +9,17 @@ import 'swiper/css/pagination';
 
 const memories = [
   {
-    url: 'https://github.com/uzair9799/Rajeev-Malka/blob/main/src/lib/11.jpeg',
+    url: 'https://raw.githubusercontent.com/uzair9799/Rajeev-Malka/main/src/lib/11.jpeg',
     title: 'A Beautiful Beginning',
     desc: 'The start of a lifelong journey.'
   },
   {
-    url: 'https://github.com/uzair9799/Rajeev-Malka/blob/main/src/lib/22.jpeg',
+    url: 'https://raw.githubusercontent.com/uzair9799/Rajeev-Malka/main/src/lib/22.jpeg',
     title: 'Shared Dreams',
     desc: 'Building a future filled with love.'
   },
   {
-    url: 'https://github.com/uzair9799/Rajeev-Malka/blob/main/src/lib/33.jpeg',
+    url: 'https://raw.githubusercontent.com/uzair9799/Rajeev-Malka/main/src/lib/33.jpeg',
     title: 'Moments to Cherish',
     desc: 'Every second spent together is a gift.'
   }

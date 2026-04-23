@@ -9,11 +9,6 @@ import 'swiper/css/pagination';
 
 const memories = [
   {
-    url: 'https://raw.githubusercontent.com/uzair9799/Rajeev-Malka/main/src/lib/11.jpeg',
-    title: 'A Beautiful Beginning',
-    desc: 'The start of a lifelong journey.'
-  },
-  {
     url: 'https://raw.githubusercontent.com/uzair9799/Rajeev-Malka/main/src/lib/22.jpeg',
     title: 'Shared Dreams',
     desc: 'Building a future filled with love.'

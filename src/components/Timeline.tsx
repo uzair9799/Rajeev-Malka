@@ -5,7 +5,7 @@ const events = [
   {
     date: '26 April 2026',
     items: [
-      { time: '03:00 PM', title: 'Sangeet', icon: <Music className="text-gold" />, desc: 'A night of music, dance, and celebration.' },
+      { time: '06:00 PM', title: 'Sangeet', icon: <Music className="text-gold" />, desc: 'A night of music, dance, and celebration.' },
       { time: '07:00 PM', title: 'Stage Ceremony', icon: <Users className="text-gold" />, desc: 'Celebratory stage moments.' },
       { time: '07:30 PM', title: 'Dinner', icon: <Utensils className="text-gold" />, desc: 'A grand feast for our loved ones.' },
     ]

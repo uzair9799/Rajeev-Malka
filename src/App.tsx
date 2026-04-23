@@ -7,6 +7,7 @@ import { useState } from 'react';
 import Preloader from './components/Preloader';
 import MusicToggle from './components/MusicToggle';
 import Hero from './components/Hero';
+import Carousel from './components/Carousel';
 import ScratchCard from './components/ScratchCard';
 import Countdown from './components/Countdown';
 import Timeline from './components/Timeline';
@@ -39,7 +40,9 @@ export default function App() {
             <Hero />
             
             <div className="mx-auto max-w-7xl px-4 py-8">
-              <div className="grid grid-cols-1 gap-4 lg:grid-cols-[350px_1fr_300px]">
+              <Carousel />
+              
+              <div className="mt-8 grid grid-cols-1 gap-4 lg:grid-cols-[350px_1fr_300px]">
                 {/* Left Column */}
                 <div className="flex flex-col gap-4">
                   <ScratchCard />
